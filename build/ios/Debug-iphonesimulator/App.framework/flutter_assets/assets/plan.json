@@ -1,0 +1,82 @@
+{
+  "plans": [
+    {
+      "id": 1,
+      "title": "High Knees",
+      "image": "assets/plan_1_img.webp",
+      "meals": {
+        "breakfast": "Oat power bowl with blueberries, chia seeds, and Greek yogurt for slow-release carbs and protein.",
+        "lunch": "Brown-rice chicken salad with avocado, mixed greens, and a lemon-olive oil dressing.",
+        "dinner": "Steamed salmon with broccoli and sweet-potato mash to support recovery."
+      },
+      "trainingDuration": "45-minute HIIT: high knees 60s on / 30s off, 6 total rounds."
+    },
+    {
+      "id": 2,
+      "title": "Rope Climb",
+      "image": "assets/plan_2_img.webp",
+      "meals": {
+        "breakfast": "Whole-grain toast with almond butter, soft-boiled eggs, and fresh orange slices.",
+        "lunch": "Quinoa beef bowl with bell pepper, peas, and carrots for extra iron and vitamin C.",
+        "dinner": "Miso soup with tofu, seaweed, spinach, and a side of brown rice."
+      },
+      "trainingDuration": "60-minute strength block: 8 rope-climb sets paired with upper-pull drills."
+    },
+    {
+      "id": 3,
+      "title": "Tire Push",
+      "image": "assets/plan_3_img.webp",
+      "meals": {
+        "breakfast": "Protein shake (whey, banana, peanut butter) plus a handful of walnuts.",
+        "lunch": "Whole-wheat beef pasta with broccoli for steady energy.",
+        "dinner": "Roasted chicken legs with baked pumpkin, beetroot, and arugula."
+      },
+      "trainingDuration": "40-minute power session: push tire 15m × 10 sets, 90-second rest."
+    },
+    {
+      "id": 4,
+      "title": "Running",
+      "image": "assets/plan_4_img.webp",
+      "meals": {
+        "breakfast": "Banana-peanut butter wrap with a glass of low-fat milk.",
+        "lunch": "Mediterranean baked-fish wrap with hummus and veggies to keep fats balanced.",
+        "dinner": "Tomato beef stew with brown rice and seasonal greens to refill glycogen."
+      },
+      "trainingDuration": "70-minute tempo: 10-min warm-up, 50-min steady pace, 10-min cool-down."
+    },
+    {
+      "id": 5,
+      "title": "Boxing",
+      "image": "assets/plan_5_img.webp",
+      "meals": {
+        "breakfast": "Spinach-cheese omelet with kiwi juice for extra vitamin C.",
+        "lunch": "Thai-style chicken brown-rice bowl with green papaya salad for protein and fiber.",
+        "dinner": "Avocado shrimp whole-wheat tacos with purple cabbage."
+      },
+      "trainingDuration": "90-minute boxing mix: 10-min jump-rope warm-up, 6 heavy-bag rounds, 4 sparring rounds."
+    },
+    {
+      "id": 6,
+      "title": "Battle Rope",
+      "image": "assets/plan_6_img.webp",
+      "meals": {
+        "breakfast": "Açaí bowl with granola and strawberries for antioxidants.",
+        "lunch": "Steamed cod with roasted Italian vegetables and brown rice (lean protein focus).",
+        "dinner": "Sesame tofu chilled noodles with cucumber and carrot strips."
+      },
+      "trainingDuration": "35-minute interval loop: battle ropes 40s on / 20s off, 5 rounds × 3 sets."
+    },
+    {
+      "id": 7,
+      "title": "Supine Twist",
+      "image": "assets/plan_7_img.webp",
+      "meals": {
+        "breakfast": "Greek yogurt parfait layered with granola and raspberries for probiotics.",
+        "lunch": "Chicken breast cabbage rolls with purple-sweet-potato mash for low GI fuel.",
+        "dinner": "Mushroom beef soup with roasted asparagus and a small whole-grain roll."
+      },
+      "trainingDuration": "30-minute core block: supine twists 20 reps × 4 sets, plus planks and side planks."
+    }
+  ]
+}
+

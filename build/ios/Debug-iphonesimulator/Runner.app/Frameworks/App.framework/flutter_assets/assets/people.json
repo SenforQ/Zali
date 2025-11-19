@@ -1,0 +1,436 @@
+{
+  "people": [
+    {
+      "ZaliNickName": "Ryan Hughes",
+      "ZaliUserIcon": "assets/people/female_15/female_15_img_1.webp",
+      "ZaliShowPhotoArray": [
+        "assets/people/female_15/female_15_img_1.webp",
+        "assets/people/female_15/female_15_img_2.webp",
+        "assets/people/female_15/female_15_img_3.webp",
+        "assets/people/female_15/female_15_img_4.webp"
+      ],
+      "ZaliShowVideoArray": [
+        "assets/people/female_15/female_15_video_1.mp4"
+      ],
+      "ZaliShowThumbnailArray": [
+        "assets/people/female_15/female_15_video_1_thumb.webp"
+      ],
+      "ZaliShowMotto": "Action-oriented thrill-seeker in fitness. Lives for the adrenaline rush of extreme sports. Focused on strength and power development.",
+      "ZaliShowFollowNum": 8,
+      "ZaliShowLike": 12,
+      "ZaliShowSayhi": "Hey! Just finished an amazing training session. What are you up to? I just discovered an amazing new workout routine!",
+      "ZaliWorkoutDuration": 143
+    },
+    {
+      "ZaliNickName": "Blake Baker",
+      "ZaliUserIcon": "assets/people/female_16/female_16_img_1.webp",
+      "ZaliShowPhotoArray": [
+        "assets/people/female_16/female_16_img_1.webp",
+        "assets/people/female_16/female_16_img_2.webp",
+        "assets/people/female_16/female_16_img_3.webp",
+        "assets/people/female_16/female_16_img_4.webp"
+      ],
+      "ZaliShowVideoArray": [
+        "assets/people/female_16/female_16_video_1.mp4"
+      ],
+      "ZaliShowThumbnailArray": [
+        "assets/people/female_16/female_16_video_1_thumb.webp"
+      ],
+      "ZaliShowMotto": "Adventurous spirit always trying new fitness trends. Loves debating training techniques and exploring extreme sports. Thrives on high-intensity interval training.",
+      "ZaliShowFollowNum": 6,
+      "ZaliShowLike": 8,
+      "ZaliShowSayhi": "Hi! Looking for a workout buddy? I'm your person! Always looking for new training partners and friends!",
+      "ZaliWorkoutDuration": 134
+    },
+    {
+      "ZaliNickName": "Isaac Brown",
+      "ZaliUserIcon": "assets/people/female_17/female_17_img_1.webp",
+      "ZaliShowPhotoArray": [
+        "assets/people/female_17/female_17_img_1.webp",
+        "assets/people/female_17/female_17_img_2.webp",
+        "assets/people/female_17/female_17_img_3.webp",
+        "assets/people/female_17/female_17_img_4.webp",
+        "assets/people/female_17/female_17_img_5.webp"
+      ],
+      "ZaliShowVideoArray": [
+        "assets/people/female_17/female_17_video_1.mp4"
+      ],
+      "ZaliShowThumbnailArray": [
+        "assets/people/female_17/female_17_video_1_thumb.webp"
+      ],
+      "ZaliShowMotto": "Creative fitness artist expressing through movement. Finds personal meaning in challenging physical adventures. Thrives on high-intensity interval training.",
+      "ZaliShowFollowNum": 8,
+      "ZaliShowLike": 12,
+      "ZaliShowSayhi": "What's up! I'm always down for a fitness challenge. Want to join? Always looking for new training partners and friends!",
+      "ZaliWorkoutDuration": 105
+    },
+    {
+      "ZaliNickName": "Zoe Lewis",
+      "ZaliUserIcon": "assets/people/female_18/female_18_img_1.webp",
+      "ZaliShowPhotoArray": [
+        "assets/people/female_18/female_18_img_1.webp",
+        "assets/people/female_18/female_18_img_2.webp",
+        "assets/people/female_18/female_18_img_3.webp",
+        "assets/people/female_18/female_18_img_4.webp",
+        "assets/people/female_18/female_18_img_5.webp",
+        "assets/people/female_18/female_18_img_6.webp"
+      ],
+      "ZaliShowVideoArray": [
+        "assets/people/female_18/female_18_video_1.mp4"
+      ],
+      "ZaliShowThumbnailArray": [
+        "assets/people/female_18/female_18_video_1_thumb.webp"
+      ],
+      "ZaliShowMotto": "Intuitive trainer focused on holistic wellness. Passionate about connecting mind and body through extreme challenges. Dedicated to functional fitness and movement.",
+      "ZaliShowFollowNum": 5,
+      "ZaliShowLike": 7,
+      "ZaliShowSayhi": "Hey! Ready to crush some workouts together? Let's push our limits! Always looking for new training partners and friends!",
+      "ZaliWorkoutDuration": 159
+    },
+    {
+      "ZaliNickName": "Zach Murphy",
+      "ZaliUserIcon": "assets/people/female_19/female_19_img_1.webp",
+      "ZaliShowPhotoArray": [
+        "assets/people/female_19/female_19_img_1.webp",
+        "assets/people/female_19/female_19_img_2.webp",
+        "assets/people/female_19/female_19_img_3.webp",
+        "assets/people/female_19/female_19_img_4.webp",
+        "assets/people/female_19/female_19_img_5.webp"
+      ],
+      "ZaliShowVideoArray": [
+        "assets/people/female_19/female_19_video_1.mp4"
+      ],
+      "ZaliShowThumbnailArray": [
+        "assets/people/female_19/female_19_video_1_thumb.webp"
+      ],
+      "ZaliShowMotto": "Action-oriented thrill-seeker in fitness. Lives for the adrenaline rush of extreme sports. Thrives on high-intensity interval training.",
+      "ZaliShowFollowNum": 2,
+      "ZaliShowLike": 14,
+      "ZaliShowSayhi": "What's up! I'm always down for a fitness challenge. Want to join? Let's motivate each other to reach our goals!",
+      "ZaliWorkoutDuration": 101
+    },
+    {
+      "ZaliNickName": "Jade Cook",
+      "ZaliUserIcon": "assets/people/female_20/female_20_img_1.webp",
+      "ZaliShowPhotoArray": [
+        "assets/people/female_20/female_20_img_1.webp",
+        "assets/people/female_20/female_20_img_2.webp",
+        "assets/people/female_20/female_20_img_3.webp",
+        "assets/people/female_20/female_20_img_4.webp",
+        "assets/people/female_20/female_20_img_5.webp"
+      ],
+      "ZaliShowVideoArray": [
+        "assets/people/female_20/female_20_video_1.mp4"
+      ],
+      "ZaliShowThumbnailArray": [
+        "assets/people/female_20/female_20_video_1_thumb.webp"
+      ],
+      "ZaliShowMotto": "Natural leader in group fitness. Organizes extreme sports adventures and motivates others to push their limits. Love rock climbing and outdoor adventures.",
+      "ZaliShowFollowNum": 7,
+      "ZaliShowLike": 9,
+      "ZaliShowSayhi": "Hey! Let's share our fitness goals and motivate each other! I just discovered an amazing new workout routine!",
+      "ZaliWorkoutDuration": 128
+    },
+    {
+      "ZaliNickName": "Dahlia Lewis",
+      "ZaliUserIcon": "assets/people/male_1/male_1_img_1.webp",
+      "ZaliShowPhotoArray": [
+        "assets/people/male_1/male_1_img_1.webp",
+        "assets/people/male_1/male_1_img_2.webp",
+        "assets/people/male_1/male_1_img_3.webp",
+        "assets/people/male_1/male_1_img_4.webp",
+        "assets/people/male_1/male_1_img_5.webp"
+      ],
+      "ZaliShowVideoArray": [
+        "assets/people/male_1/male_1_video_1.mp4"
+      ],
+      "ZaliShowThumbnailArray": [
+        "assets/people/male_1/male_1_video_1_thumb.webp"
+      ],
+      "ZaliShowMotto": "Action-oriented thrill-seeker in fitness. Lives for the adrenaline rush of extreme sports. Love rock climbing and outdoor adventures.",
+      "ZaliShowFollowNum": 6,
+      "ZaliShowLike": 12,
+      "ZaliShowSayhi": "Hello! Always excited to connect with fellow fitness enthusiasts! Hope you're having an awesome day full of movement!",
+      "ZaliWorkoutDuration": 99
+    },
+    {
+      "ZaliNickName": "Liam Davis",
+      "ZaliUserIcon": "assets/people/male_10/male_10_img_1.webp",
+      "ZaliShowPhotoArray": [
+        "assets/people/male_10/male_10_img_1.webp",
+        "assets/people/male_10/male_10_img_2.webp",
+        "assets/people/male_10/male_10_img_3.webp",
+        "assets/people/male_10/male_10_img_4.webp"
+      ],
+      "ZaliShowVideoArray": [
+        "assets/people/male_10/male_10_video_1.mp4"
+      ],
+      "ZaliShowThumbnailArray": [
+        "assets/people/male_10/male_10_video_1_thumb.webp"
+      ],
+      "ZaliShowMotto": "Disciplined athlete following structured training plans. Reliable partner for consistent extreme sports practice. Passionate about calisthenics and bodyweight training.",
+      "ZaliShowFollowNum": 6,
+      "ZaliShowLike": 15,
+      "ZaliShowSayhi": "What's up! I'm always down for a fitness challenge. Want to join? Let's motivate each other to reach our goals!",
+      "ZaliWorkoutDuration": 84
+    },
+    {
+      "ZaliNickName": "Nora Bell",
+      "ZaliUserIcon": "assets/people/male_11/male_11_img_1.webp",
+      "ZaliShowPhotoArray": [
+        "assets/people/male_11/male_11_img_1.webp",
+        "assets/people/male_11/male_11_img_2.webp",
+        "assets/people/male_11/male_11_img_3.webp",
+        "assets/people/male_11/male_11_img_4.webp",
+        "assets/people/male_11/male_11_img_5.webp",
+        "assets/people/male_11/male_11_img_6.webp"
+      ],
+      "ZaliShowVideoArray": [
+        "assets/people/male_11/male_11_video_1.mp4"
+      ],
+      "ZaliShowThumbnailArray": [
+        "assets/people/male_11/male_11_video_1_thumb.webp"
+      ],
+      "ZaliShowMotto": "Organized fitness leader setting clear goals. Efficient planner of group extreme sports events. Focused on strength and power development.",
+      "ZaliShowFollowNum": 5,
+      "ZaliShowLike": 8,
+      "ZaliShowSayhi": "Hey! Just finished an amazing training session. What are you up to? Always looking for new training partners and friends!",
+      "ZaliWorkoutDuration": 118
+    },
+    {
+      "ZaliNickName": "Spencer Anderson",
+      "ZaliUserIcon": "assets/people/male_12/male_12_img_1.webp",
+      "ZaliShowPhotoArray": [
+        "assets/people/male_12/male_12_img_1.webp",
+        "assets/people/male_12/male_12_img_2.webp",
+        "assets/people/male_12/male_12_img_3.webp",
+        "assets/people/male_12/male_12_img_4.webp"
+      ],
+      "ZaliShowVideoArray": [
+        "assets/people/male_12/male_12_video_1.mp4"
+      ],
+      "ZaliShowThumbnailArray": [
+        "assets/people/male_12/male_12_video_1_thumb.webp"
+      ],
+      "ZaliShowMotto": "Action-oriented thrill-seeker in fitness. Lives for the adrenaline rush of extreme sports. Focused on strength and power development.",
+      "ZaliShowFollowNum": 8,
+      "ZaliShowLike": 8,
+      "ZaliShowSayhi": "What's up! I'm always down for a fitness challenge. Want to join? Let's motivate each other to reach our goals!",
+      "ZaliWorkoutDuration": 128
+    },
+    {
+      "ZaliNickName": "Ruby Scott",
+      "ZaliUserIcon": "assets/people/male_13/male_13_img_1.webp",
+      "ZaliShowPhotoArray": [
+        "assets/people/male_13/male_13_img_1.webp",
+        "assets/people/male_13/male_13_img_2.webp",
+        "assets/people/male_13/male_13_img_3.webp",
+        "assets/people/male_13/male_13_img_4.webp"
+      ],
+      "ZaliShowVideoArray": [
+        "assets/people/male_13/male_13_video_1.mp4"
+      ],
+      "ZaliShowThumbnailArray": [
+        "assets/people/male_13/male_13_video_1_thumb.webp"
+      ],
+      "ZaliShowMotto": "Social fitness coordinator bringing people together. Creates welcoming environments for extreme sports. Passionate about calisthenics and bodyweight training.",
+      "ZaliShowFollowNum": 10,
+      "ZaliShowLike": 13,
+      "ZaliShowSayhi": "What's up! I'm always down for a fitness challenge. Want to join? Let's motivate each other to reach our goals!",
+      "ZaliWorkoutDuration": 50
+    },
+    {
+      "ZaliNickName": "Kate Hughes",
+      "ZaliUserIcon": "assets/people/male_14/male_14_img_1.webp",
+      "ZaliShowPhotoArray": [
+        "assets/people/male_14/male_14_img_1.webp",
+        "assets/people/male_14/male_14_img_2.webp",
+        "assets/people/male_14/male_14_img_3.webp",
+        "assets/people/male_14/male_14_img_4.webp"
+      ],
+      "ZaliShowVideoArray": [
+        "assets/people/male_14/male_14_video_1.mp4"
+      ],
+      "ZaliShowThumbnailArray": [
+        "assets/people/male_14/male_14_video_1_thumb.webp"
+      ],
+      "ZaliShowMotto": "Adventurous spirit always trying new fitness trends. Loves debating training techniques and exploring extreme sports. Thrives on high-intensity interval training.",
+      "ZaliShowFollowNum": 2,
+      "ZaliShowLike": 8,
+      "ZaliShowSayhi": "Hey! Just finished an amazing training session. What are you up to? I just discovered an amazing new workout routine!",
+      "ZaliWorkoutDuration": 50
+    },
+    {
+      "ZaliNickName": "Maya Kennedy",
+      "ZaliUserIcon": "assets/people/male_2/male_2_img_1.webp",
+      "ZaliShowPhotoArray": [
+        "assets/people/male_2/male_2_img_1.webp",
+        "assets/people/male_2/male_2_img_2.webp",
+        "assets/people/male_2/male_2_img_3.webp",
+        "assets/people/male_2/male_2_img_4.webp"
+      ],
+      "ZaliShowVideoArray": [
+        "assets/people/male_2/male_2_video_1.mp4"
+      ],
+      "ZaliShowThumbnailArray": [
+        "assets/people/male_2/male_2_video_1_thumb.webp"
+      ],
+      "ZaliShowMotto": "Natural leader in group fitness. Organizes extreme sports adventures and motivates others to push their limits. Passionate about calisthenics and bodyweight training.",
+      "ZaliShowFollowNum": 10,
+      "ZaliShowLike": 14,
+      "ZaliShowSayhi": "Hello! Always excited to connect with fellow fitness enthusiasts! Hope you're having an awesome day full of movement!",
+      "ZaliWorkoutDuration": 35
+    },
+    {
+      "ZaliNickName": "Rowan Mitchell",
+      "ZaliUserIcon": "assets/people/male_3/male_3_img_1.webp",
+      "ZaliShowPhotoArray": [
+        "assets/people/male_3/male_3_img_1.webp",
+        "assets/people/male_3/male_3_img_2.webp",
+        "assets/people/male_3/male_3_img_3.webp",
+        "assets/people/male_3/male_3_img_4.webp"
+      ],
+      "ZaliShowVideoArray": [
+        "assets/people/male_3/male_3_video_1.mp4"
+      ],
+      "ZaliShowThumbnailArray": [
+        "assets/people/male_3/male_3_video_1_thumb.webp"
+      ],
+      "ZaliShowMotto": "Disciplined athlete following structured training plans. Reliable partner for consistent extreme sports practice. Enjoys yoga and flexibility work.",
+      "ZaliShowFollowNum": 4,
+      "ZaliShowLike": 9,
+      "ZaliShowSayhi": "Hey! Let's share our fitness goals and motivate each other! Can't wait to share my latest fitness journey with you!",
+      "ZaliWorkoutDuration": 111
+    },
+    {
+      "ZaliNickName": "Dylan Davis",
+      "ZaliUserIcon": "assets/people/male_4/male_4_img_1.webp",
+      "ZaliShowPhotoArray": [
+        "assets/people/male_4/male_4_img_1.webp",
+        "assets/people/male_4/male_4_img_2.webp",
+        "assets/people/male_4/male_4_img_3.webp",
+        "assets/people/male_4/male_4_img_4.webp",
+        "assets/people/male_4/male_4_img_5.webp",
+        "assets/people/male_4/male_4_img_6.webp"
+      ],
+      "ZaliShowVideoArray": [
+        "assets/people/male_4/male_4_video_1.mp4"
+      ],
+      "ZaliShowThumbnailArray": [
+        "assets/people/male_4/male_4_video_1_thumb.webp"
+      ],
+      "ZaliShowMotto": "Inspiring coach who motivates others. Creates supportive communities around fitness and extreme sports. Dedicated to functional fitness and movement.",
+      "ZaliShowFollowNum": 10,
+      "ZaliShowLike": 12,
+      "ZaliShowSayhi": "Hey! Let's share our fitness goals and motivate each other! I just discovered an amazing new workout routine!",
+      "ZaliWorkoutDuration": 171
+    },
+    {
+      "ZaliNickName": "Alex Baker",
+      "ZaliUserIcon": "assets/people/male_5/male_5_img_1.webp",
+      "ZaliShowPhotoArray": [
+        "assets/people/male_5/male_5_img_1.webp",
+        "assets/people/male_5/male_5_img_2.webp",
+        "assets/people/male_5/male_5_img_3.webp",
+        "assets/people/male_5/male_5_img_4.webp"
+      ],
+      "ZaliShowVideoArray": [
+        "assets/people/male_5/male_5_video_1.mp4"
+      ],
+      "ZaliShowThumbnailArray": [
+        "assets/people/male_5/male_5_video_1_thumb.webp"
+      ],
+      "ZaliShowMotto": "Energetic fitness enthusiast bringing joy to workouts. Loves sharing exciting extreme sports experiences. Love rock climbing and outdoor adventures.",
+      "ZaliShowFollowNum": 6,
+      "ZaliShowLike": 7,
+      "ZaliShowSayhi": "What's up! I'm always down for a fitness challenge. Want to join? Hope you're having an awesome day full of movement!",
+      "ZaliWorkoutDuration": 89
+    },
+    {
+      "ZaliNickName": "Kai Davis",
+      "ZaliUserIcon": "assets/people/male_6/male_6_img_1.webp",
+      "ZaliShowPhotoArray": [
+        "assets/people/male_6/male_6_img_1.webp",
+        "assets/people/male_6/male_6_img_2.webp",
+        "assets/people/male_6/male_6_img_3.webp",
+        "assets/people/male_6/male_6_img_4.webp",
+        "assets/people/male_6/male_6_img_5.webp"
+      ],
+      "ZaliShowVideoArray": [
+        "assets/people/male_6/male_6_video_1.mp4"
+      ],
+      "ZaliShowThumbnailArray": [
+        "assets/people/male_6/male_6_video_1_thumb.webp"
+      ],
+      "ZaliShowMotto": "Intuitive trainer focused on holistic wellness. Passionate about connecting mind and body through extreme challenges. Enjoys yoga and flexibility work.",
+      "ZaliShowFollowNum": 10,
+      "ZaliShowLike": 14,
+      "ZaliShowSayhi": "Hi there! Love your energy. Let's talk about our favorite extreme sports! I just discovered an amazing new workout routine!",
+      "ZaliWorkoutDuration": 116
+    },
+    {
+      "ZaliNickName": "Vera Evans",
+      "ZaliUserIcon": "assets/people/male_7/male_7_img_1.webp",
+      "ZaliShowPhotoArray": [
+        "assets/people/male_7/male_7_img_1.webp",
+        "assets/people/male_7/male_7_img_2.webp",
+        "assets/people/male_7/male_7_img_3.webp",
+        "assets/people/male_7/male_7_img_4.webp"
+      ],
+      "ZaliShowVideoArray": [
+        "assets/people/male_7/male_7_video_1.mp4"
+      ],
+      "ZaliShowThumbnailArray": [
+        "assets/people/male_7/male_7_video_1_thumb.webp"
+      ],
+      "ZaliShowMotto": "Organized fitness leader setting clear goals. Efficient planner of group extreme sports events. Love rock climbing and outdoor adventures.",
+      "ZaliShowFollowNum": 4,
+      "ZaliShowLike": 12,
+      "ZaliShowSayhi": "Hi! Looking for a workout buddy? I'm your person! Let's motivate each other to reach our goals! What's your favorite way to stay active?",
+      "ZaliWorkoutDuration": 72
+    },
+    {
+      "ZaliNickName": "Parker Wang",
+      "ZaliUserIcon": "assets/people/male_8/male_8_img_1.webp",
+      "ZaliShowPhotoArray": [
+        "assets/people/male_8/male_8_img_1.webp",
+        "assets/people/male_8/male_8_img_2.webp",
+        "assets/people/male_8/male_8_img_3.webp",
+        "assets/people/male_8/male_8_img_4.webp",
+        "assets/people/male_8/male_8_img_5.webp"
+      ],
+      "ZaliShowVideoArray": [
+        "assets/people/male_8/male_8_video_1.mp4"
+      ],
+      "ZaliShowThumbnailArray": [
+        "assets/people/male_8/male_8_video_1_thumb.webp"
+      ],
+      "ZaliShowMotto": "Artistic athlete expressing through movement. Finds beauty in challenging physical experiences. Thrives on high-intensity interval training.",
+      "ZaliShowFollowNum": 3,
+      "ZaliShowLike": 15,
+      "ZaliShowSayhi": "Hey! Just finished an amazing training session. What are you up to? Always looking for new training partners and friends!",
+      "ZaliWorkoutDuration": 63
+    },
+    {
+      "ZaliNickName": "Willow Smith",
+      "ZaliUserIcon": "assets/people/male_9/male_9_img_1.webp",
+      "ZaliShowPhotoArray": [
+        "assets/people/male_9/male_9_img_1.webp",
+        "assets/people/male_9/male_9_img_2.webp",
+        "assets/people/male_9/male_9_img_3.webp",
+        "assets/people/male_9/male_9_img_4.webp"
+      ],
+      "ZaliShowVideoArray": [
+        "assets/people/male_9/male_9_video_1.mp4"
+      ],
+      "ZaliShowThumbnailArray": [
+        "assets/people/male_9/male_9_video_1_thumb.webp"
+      ],
+      "ZaliShowMotto": "Innovative athlete experimenting with new training methods. Enjoys solving physical challenges through creative movement. Love rock climbing and outdoor adventures.",
+      "ZaliShowFollowNum": 9,
+      "ZaliShowLike": 8,
+      "ZaliShowSayhi": "Hey! Just finished an amazing training session. What are you up to? Let's motivate each other to reach our goals!",
+      "ZaliWorkoutDuration": 126
+    }
+  ]
+}
