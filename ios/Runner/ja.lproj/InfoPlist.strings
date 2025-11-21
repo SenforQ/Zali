@@ -1,0 +1,20 @@
+/* 
+  InfoPlist.strings
+  Runner
+
+  Created by gjm4senfor on 2025/11/21.
+  
+*/
+"NSUserTrackingUsageDescription" = "デバイス識別子へのアクセスは、アカウント取引の保護とパーソナライズされた広告サービスのプッシュに使用されます。";
+
+"NSPhotoLibraryUsageDescription" = "アルバムにアクセスして写真を取得し、カバー写真を更新します。アクセスが禁止されている場合、カバー写真は更新されません。";
+
+"NSLocationWhenInUseUsageDescription" = "近くのユーザーの表示が禁止されている場合、位置情報にアクセスして近くのユーザーを表示します。";
+
+"NSCameraUsageDescription" = "カメラにアクセスして写真を撮影し、カバー写真を更新します。アクセスが禁止されている場合、カバー写真は更新されません。";
+
+"NSLocationAlwaysUsageDescription" = "近くのユーザーの表示が禁止されている場合、位置情報にアクセスして近くのユーザーを表示します。";
+
+"NSPhotoLibraryAddUsageDescription" = "写真ライブラリにアクセスして新しい写真を追加します。";
+
+"NSMicrophoneUsageDescription" = "音声メッセージを録音するためにマイクにアクセスします。禁止されている場合、音声を録音および送信することはできません";

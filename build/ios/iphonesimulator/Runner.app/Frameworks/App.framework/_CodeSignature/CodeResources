@@ -10,11 +10,11 @@
 		</data>
 		<key>flutter_assets/AssetManifest.bin</key>
 		<data>
-		1y9XOcfiOvnPtCQ4VnASsWgS+7w=
+		2xCKPFwG6VeyErDjNkDRGYcCoyk=
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		WhQP9Txc4leFR2OgpQzbMi6AGgg=
+		mSwE6iPAQiFHdZ7DYcIa+498VLg=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>flutter_assets/NOTICES.Z</key>
 		<data>
-		3++O7TKLntuMcRYpQjEyq8hBLZk=
+		NKr8+sDNs0KYh5djhzd2/yR+P/s=
 		</data>
 		<key>flutter_assets/NativeAssetsManifest.json</key>
 		<data>
@@ -748,6 +748,18 @@
 		<data>
 		n3kA031sxTpR20oUFHUun6W26ew=
 		</data>
+		<key>flutter_assets/assets/wallet_bicycle.webp</key>
+		<data>
+		o5UxRw+dHjYZnIGB8y6RAkrbISc=
+		</data>
+		<key>flutter_assets/assets/wallet_gold.webp</key>
+		<data>
+		Dk5dhcfHX3eNr7VUsBhyWkmmZC0=
+		</data>
+		<key>flutter_assets/assets/welcome_bg.webp</key>
+		<data>
+		9Es6MSSKPMHi/Hf9+CAczlqqlYM=
+		</data>
 		<key>flutter_assets/assets/zaliCall.mp3</key>
 		<data>
 		0zCcUDhRlnPu/iiF3bqmbVhnKCA=
@@ -762,7 +774,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		oYGSHCp8YgQgQlqi0HLrv877tT8=
+		6uq4GOL6X09nqnZixya20hvIVZQ=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -783,14 +795,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			clhI+jlFrAb1mx3eGNxhNn5MsyK0Udh1DKD7VSr1Upg=
+			4mCPpKy8QmlhicpE0slslAjZsZ53fa/GOMV33lFwuqU=
 			</data>
 		</dict>
 		<key>flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4Z4nrFoRzxwMa/0DioaSf5isCOQHWffVn72jND0fbZo=
+			ya4kUGer0eSaemz7cZMlFp/gsKcOKu0X61dK2ze+RUw=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -804,7 +816,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Tvt9WHMeVPZuJhoNjtN4sVNpYSqNsHS0NeKcXzU56Fo=
+			lgjrMNeeCdHwZkAjMrrH5Z40kY3tuo0FwRJXSQEKiJs=
 			</data>
 		</dict>
 		<key>flutter_assets/NativeAssetsManifest.json</key>
@@ -2074,6 +2086,27 @@
 			d46lUqzd4uK83NQnwLsJ5OCVJBWXZ2Xezv8oKxczqN0=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/wallet_bicycle.webp</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8KgI2IqApP1pPlsfhaValiH7SLCeWTizUAQyOKKr3cE=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/wallet_gold.webp</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uDWqSgk9KeLMtTbZ9ks6YmAXLZm3JrGdw7O2On1fqoc=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/welcome_bg.webp</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dLBueYCPvr1tA0bdkLuMY0L+fRwgx6U5S6eCIHTuOTA=
+			</data>
+		</dict>
 		<key>flutter_assets/assets/zaliCall.mp3</key>
 		<dict>
 			<key>hash2</key>
@@ -2099,7 +2132,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fTIB0rmjCA3wf032+PIDIpRSH5aD038DIOqaS0jWdxI=
+			AJBsTHqfRAxfBxjHO1ImkqG5L3dbej7RtbUjvxy93aI=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>

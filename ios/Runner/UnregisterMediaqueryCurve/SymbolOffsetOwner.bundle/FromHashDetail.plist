@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accessibleStateRate</key>
+	<string>routerBufferVelocity</string>
+	<key>activityProcessBound</key>
+	<string>streamActivityState</string>
+	<key>baselineAdapterRotation</key>
+	<string>singleExceptionFeedback</string>
+	<key>delegatePerContext</key>
+	<string>positionBridgeAcceleration</string>
+	<key>mediocreBulletRight</key>
+	<string>topicStrategyType</string>
+	<key>skinDecoratorSkewy</key>
+	<string>offsetSingletonShape</string>
+	<key>streamAlongLayer</key>
+	<string>topicStrategyValidation</string>
+	<key>taskSingletonPadding</key>
+	<string>routerActivityVisibility</string>
+</dict>
+</plist>

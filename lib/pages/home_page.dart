@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'cardio_page.dart';
 import 'recovery_page.dart';
 import 'strength_page.dart';
+import 'vip_page.dart';
+import '../services/vip_service.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -13,6 +15,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   String _selectedType = 'recovery'; // 默认选中 recovery
+  bool _isVipActive = false;
 
   final List<Map<String, String>> _workoutTypes = [
     {'key': 'cardio', 'name': 'Cardio'},
@@ -23,6 +26,26 @@ class _HomePageState extends State<HomePage> {
   String _getImagePath(String key) {
     final suffix = _selectedType == key ? '_s' : '';
     return 'assets/home_${key}${suffix}.webp';
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    _loadVipStatus();
+  }
+
+  Future<void> _loadVipStatus() async {
+    final isActive = await VipService.isVipActive();
+    final isExpired = await VipService.isVipExpired();
+
+    if (isActive && isExpired) {
+      await VipService.deactivateVip();
+    }
+
+    if (!mounted) return;
+    setState(() {
+      _isVipActive = isActive && !isExpired;
+    });
   }
 
   void _navigateToSelectedPage() {
@@ -43,6 +66,70 @@ class _HomePageState extends State<HomePage> {
     Navigator.of(context).push(MaterialPageRoute(builder: (_) => page));
   }
 
+  Future<void> _handleConfirmTap() async {
+    final requiresVip = _selectedType == 'cardio' || _selectedType == 'strength';
+    if (requiresVip) {
+      await _loadVipStatus();
+    }
+
+    if (requiresVip && !_isVipActive) {
+      if (!mounted) return;
+      _showVipDialog();
+      return;
+    }
+
+    if (!mounted) return;
+    _navigateToSelectedPage();
+  }
+
+  void _showVipDialog() {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        backgroundColor: const Color(0xFF121212),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+        title: Row(
+          children: const [
+            Icon(
+              Icons.diamond,
+              color: Color(0xFF28FF5E),
+            ),
+            SizedBox(width: 8),
+            Text(
+              'VIP Feature',
+              style: TextStyle(color: Colors.white),
+            ),
+          ],
+        ),
+        content: const Text(
+          'This workout type is available for VIP members only.',
+          style: TextStyle(color: Colors.white70),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(),
+            child: const Text(
+              'Cancel',
+              style: TextStyle(color: Color(0xFF888888)),
+            ),
+          ),
+          TextButton(
+            onPressed: () {
+              Navigator.of(context).pop();
+              Navigator.of(context).push(
+                MaterialPageRoute(builder: (_) => const VipPage()),
+              );
+            },
+            child: const Text(
+              'Go',
+              style: TextStyle(color: Color(0xFF28FF5E), fontWeight: FontWeight.bold),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
@@ -50,6 +137,7 @@ class _HomePageState extends State<HomePage> {
     final screenWidth = mediaQuery.size.width;
     final screenHeight = mediaQuery.size.height;
     final bottomPadding = mediaQuery.padding.bottom;
+    final requiresVip = _selectedType == 'cardio' || _selectedType == 'strength';
 
     return Container(
       color: const Color(0xFF0A0A0A),
@@ -128,7 +216,7 @@ class _HomePageState extends State<HomePage> {
                     ),
                     const SizedBox(height: 24),
                     GestureDetector(
-                      onTap: _navigateToSelectedPage,
+                      onTap: _handleConfirmTap,
                       child: Container(
                         width: double.infinity,
                         height: 48,
@@ -137,12 +225,33 @@ class _HomePageState extends State<HomePage> {
                           borderRadius: BorderRadius.circular(24),
                         ),
                         alignment: Alignment.center,
-                        child: Text(
-                          'Confirm',
-                          style: theme.textTheme.titleMedium?.copyWith(
-                            color: Colors.black,
-                            fontWeight: FontWeight.w600,
-                          ),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            if (requiresVip)
+                              Container(
+                                width: 24,
+                                height: 24,
+                                margin: const EdgeInsets.only(right: 8),
+                                decoration: const BoxDecoration(
+                                  color: Colors.black,
+                                  shape: BoxShape.circle,
+                                ),
+                                child: const Icon(
+                                  Icons.diamond,
+                                  color: Color(0xFF28FF5E),
+                                  size: 18,
+                                ),
+                              ),
+                            Text(
+                              'Confirm',
+                              style: theme.textTheme.titleMedium?.copyWith(
+                                color: Colors.black,
+                                fontWeight: FontWeight.w600,
+                              ),
+                            ),
+                          ],
                         ),
                       ),
                     ),
