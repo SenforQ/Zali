@@ -94,7 +94,7 @@ import Flutter
             print("无法获取构建版本号")
         }
         
-        ZaliVectorizeItUtilCaptionEmeraldMagentaVersion = "-1"
+//        ZaliVectorizeItUtilCaptionEmeraldMagentaVersion = "-1"
         
         self.observer()
         
