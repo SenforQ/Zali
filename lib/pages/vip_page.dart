@@ -309,9 +309,16 @@ class _VipPageState extends State<VipPage> {
   String _getPriceText(VipSubscription subscription) {
     final productDetails = _products[subscription.productId];
     if (productDetails != null && productDetails.price.isNotEmpty) {
-      return productDetails.price;
+      final rawPrice = productDetails.rawPrice;
+      final numericPrice =
+          rawPrice is num ? rawPrice : num.tryParse(rawPrice.toString()) ?? 0;
+      return '\$${numericPrice.toStringAsFixed(2)}';
     }
-    return '${subscription.currency}${subscription.price.toStringAsFixed(2)}';
+    return '\$${subscription.price.toStringAsFixed(2)}';
+  }
+
+  String _getCycleSuffix(VipSubscription subscription) {
+    return subscription.id == 'weekly' ? '/week' : '/month';
   }
 
   @override
@@ -589,7 +596,7 @@ class _VipPageState extends State<VipPage> {
                   ),
                   const SizedBox(height: 4),
                   Text(
-                    _getPriceText(subscription),
+                    '${_getPriceText(subscription)}${_getCycleSuffix(subscription)}',
                     style: const TextStyle(
                       color: Colors.white,
                       fontSize: 24,
