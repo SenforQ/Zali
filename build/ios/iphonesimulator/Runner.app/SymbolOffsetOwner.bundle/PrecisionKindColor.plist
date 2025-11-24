@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>alertPlatformSaturation</key>
+	<string>rowFrameworkFeedback</string>
+	<key>durationBySingleton</key>
+	<string>statefulVariableDuration</string>
+	<key>labelNearStyle</key>
+	<string>layoutOrParam</string>
+	<key>methodDuringParam</key>
+	<string>tangentActionTint</string>
+	<key>nativeBuilderPressure</key>
+	<string>activeGroupCount</string>
+	<key>queueEnvironmentName</key>
+	<string>extensionDecoratorTint</string>
+	<key>repositoryByCommand</key>
+	<string>semanticCompositionIndex</string>
+	<key>viewLayerRotation</key>
+	<string>requestLayerSize</string>
+</dict>
+</plist>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>directlyControllerFormat</key>
+	<string>sophisticatedButtonCenter</string>
+	<key>fragmentTypeDistance</key>
+	<string>precisionAlongAction</string>
+	<key>geometricNavigationType</key>
+	<string>staticStatelessTint</string>
+	<key>hierarchicalTitleBorder</key>
+	<string>handlerContextTail</string>
+	<key>intermediateNavigationOpacity</key>
+	<string>usedCoordinatorDuration</string>
+	<key>pivotalReducerColor</key>
+	<string>commonBufferTail</string>
+	<key>requiredStateMargin</key>
+	<string>easyUsageVisible</string>
+	<key>specifierVersusNumber</key>
+	<string>liteScaleScale</string>
+	<key>statelessFutureTension</key>
+	<string>curveStructureValidation</string>
+	<key>widgetUntilSingleton</key>
+	<string>durationAwayBuffer</string>
+</dict>
+</plist>

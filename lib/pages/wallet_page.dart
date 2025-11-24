@@ -328,20 +328,15 @@ class _WalletPageState extends State<WalletPage> {
                     ),
                   ),
                   const SizedBox(height: 28),
-                  GridView.builder(
-                    shrinkWrap: true,
-                    physics: const NeverScrollableScrollPhysics(),
-                    gridDelegate:
-                        const SliverGridDelegateWithFixedCrossAxisCount(
-                      crossAxisCount: 3,
-                      crossAxisSpacing: 12,
-                      mainAxisSpacing: 16,
-                      childAspectRatio: 0.68,
-                    ),
-                    itemCount: kCoinProducts.length,
-                    itemBuilder: (context, index) =>
-                        _buildProductCard(context, index),
-                  ),
+                  ...kCoinProducts.asMap().entries.map((entry) {
+                    final index = entry.key;
+                    return Padding(
+                      padding: EdgeInsets.only(
+                        bottom: index < kCoinProducts.length - 1 ? 12 : 0,
+                      ),
+                      child: _buildProductCard(context, index),
+                    );
+                  }).toList(),
                 ],
               ),
             ),
@@ -415,19 +410,18 @@ class _WalletPageState extends State<WalletPage> {
       child: Container(
         decoration: BoxDecoration(
           color: const Color(0xFF141414),
-          borderRadius: BorderRadius.circular(24),
+          borderRadius: BorderRadius.circular(16),
           border: Border.all(
             color: isSelected ? const Color(0xFF28FF5E) : Colors.transparent,
             width: 2,
           ),
         ),
-        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 16),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
+        child: Row(
           children: [
             Container(
-              width: 48,
-              height: 48,
+              width: 56,
+              height: 56,
               decoration: const BoxDecoration(
                 color: Color(0xFFFFD66B),
                 shape: BoxShape.circle,
@@ -436,25 +430,40 @@ class _WalletPageState extends State<WalletPage> {
               child: const Icon(
                 Icons.stars_rounded,
                 color: Color(0xFF8C5C00),
-                size: 28,
+                size: 32,
               ),
             ),
-            Text(
-              '${product.coins}',
-              style: const TextStyle(
-                color: Colors.white,
-                fontSize: 20,
-                fontWeight: FontWeight.w600,
+            const SizedBox(width: 16),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    '${product.coins} Coins',
+                    style: const TextStyle(
+                      color: Colors.white,
+                      fontSize: 18,
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                  const SizedBox(height: 4),
+                  Text(
+                    priceLabel,
+                    style: const TextStyle(
+                      color: Color(0xFF999999),
+                      fontSize: 14,
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
+                ],
               ),
             ),
             Container(
-              width: double.infinity,
-              height: 36,
+              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
               decoration: BoxDecoration(
                 color: const Color(0xFF28FF5E),
-                borderRadius: BorderRadius.circular(40),
+                borderRadius: BorderRadius.circular(20),
               ),
-              alignment: Alignment.center,
               child: Text(
                 priceLabel,
                 style: const TextStyle(
@@ -473,7 +482,9 @@ class _WalletPageState extends State<WalletPage> {
   String _getPriceLabel(CoinProduct product) {
     final productDetails = _products[product.productId];
     if (productDetails != null && productDetails.price.isNotEmpty) {
-      return productDetails.price;
+      final rawPrice = productDetails.rawPrice;
+      final numericPrice = rawPrice is num ? rawPrice : num.tryParse(rawPrice.toString()) ?? 0;
+      return '\$${numericPrice.toStringAsFixed(2)}';
     }
     return product.priceText;
   }

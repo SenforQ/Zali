@@ -9993,6 +9993,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 854D2205862B77F7D59435F1778EE0F5 /* FirebaseABTesting.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -10014,6 +10015,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FE3D5116C417832A1B8EC34E5126BA03 /* path_provider_foundation.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -10067,6 +10069,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B624CC8DC9EF2B391D2FD893D426A774 /* image_picker_ios.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -10088,6 +10091,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FF57ABAB0DB7DEC6FDD2A1EBDF1A5986 /* image_picker_ios.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -10145,6 +10149,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 16F090CCBE5149A6C3F808F46ABE42A8 /* FirebaseMessaging.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -10184,6 +10189,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 90A53B25FF54516DFC5CC720CF72EBEB /* WebViewJavascriptBridge.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -10223,6 +10229,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0077A457434551096619A811F99E62DA /* connectivity_plus.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -10280,6 +10287,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8CC825B59DB9B237FB2A45BB7139BB8C /* FirebaseSharedSwift.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -10319,6 +10327,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FE3D5116C417832A1B8EC34E5126BA03 /* path_provider_foundation.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -10372,6 +10381,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5F069CCA0736651F294243E2D366441C /* KeychainSwift.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -10412,6 +10422,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DF0A72E64626A19C63F5E28740472190 /* HandyJSON.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -10422,6 +10433,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREFIX_HEADER = "Target Support Files/HandyJSON/HandyJSON-prefix.pch";
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/HandyJSON/HandyJSON-Info.plist";
@@ -10439,6 +10451,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -10450,6 +10463,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D62559FBD9638894935231D02D6556FC /* FirebaseRemoteConfigInterop.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -10489,6 +10503,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AAAC05F05EEA3C6D469C0AC5EB329919 /* KeychainSwift.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -10529,6 +10544,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 960FF89CCCCE5A087E8835FBC5B0D56E /* FirebaseMessaging.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -10568,6 +10584,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9CA200DAAF1E99584E928A0890A233E0 /* package_info_plus.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -10625,6 +10642,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DF44F60A13FB871C2571F31B15224EE2 /* path_provider_foundation.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -10646,6 +10664,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EFA6DE13D06792755F1D5541EF1D5A30 /* in_app_purchase_storekit.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -10666,6 +10685,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 80E94436F1CCEA4AD67803D6228A7299 /* webview_flutter_wkwebview.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -10686,6 +10706,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6FA6DC28D1C3EAC0824A86A64A8C8DB6 /* PromisesObjC.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -10707,6 +10728,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9A4429218676E0EA27F6FEE0585CF69C /* GoogleUtilities.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -10745,6 +10767,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2E466E77FA84FD908925277824D725AE /* FirebaseRemoteConfig.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -10765,6 +10788,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6FA6DC28D1C3EAC0824A86A64A8C8DB6 /* PromisesObjC.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -10802,6 +10826,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EBC5BB7B3DEA23C991F5DEA73301DF77 /* PromisesObjC.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
@@ -10824,6 +10849,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 784D71305AED91EE8E4D9E41E0A9CDAC /* video_player_avfoundation.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -10881,6 +10907,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7056F3F5AFB48188348AD4C622A6D9CD /* FirebaseRemoteConfig.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -10920,6 +10947,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6EF82DD1BB8EC190EAAD10BA7637A04C /* audioplayers_darwin.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -10977,6 +11005,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0077A457434551096619A811F99E62DA /* connectivity_plus.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
@@ -10999,6 +11028,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9CA200DAAF1E99584E928A0890A233E0 /* package_info_plus.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -11019,6 +11049,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EC1084C3A4174ED20DAB37F13B2805B0 /* shared_preferences_foundation.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -11071,6 +11102,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A28BA4A444D9F7181F02EA6B63D4825B /* GoogleUtilities.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -11109,6 +11141,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A51EFC3B6496F5DB0F594229D0328A67 /* package_info_plus.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -11166,6 +11199,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BC22898F6259ED6FBD4ED36A05109F7D /* nanopb.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -11205,6 +11239,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9A4429218676E0EA27F6FEE0585CF69C /* GoogleUtilities.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -11243,6 +11278,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DF0A72E64626A19C63F5E28740472190 /* HandyJSON.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -11253,6 +11289,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREFIX_HEADER = "Target Support Files/HandyJSON/HandyJSON-prefix.pch";
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/HandyJSON/HandyJSON-Info.plist";
@@ -11270,6 +11307,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -11281,6 +11319,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 83E57BC52073D2B0ED2636D85C40E5B5 /* GoogleDataTransport.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -11302,6 +11341,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9A4429218676E0EA27F6FEE0585CF69C /* GoogleUtilities.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -11322,6 +11362,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 48F3A5DD704152741B8E8ED693D861FD /* webview_flutter_wkwebview.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -11375,6 +11416,7 @@
 			baseConfigurationReference = CDAECCF4B5E08124ED410F09FD5A5DF9 /* Pods-Runner.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -11431,6 +11473,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 27AE1E080EA66AA235B625C0B93104D7 /* shared_preferences_foundation.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -11483,6 +11526,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 960FF89CCCCE5A087E8835FBC5B0D56E /* FirebaseMessaging.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -11503,6 +11547,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EFA6DE13D06792755F1D5541EF1D5A30 /* in_app_purchase_storekit.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -11555,6 +11600,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3A394759B9CF442E77C23A7294805F24 /* FirebaseABTesting.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -11575,6 +11621,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5D6273D889DBD7976AFE2108D6254082 /* Adjust.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -11614,6 +11661,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F624D7EC68CA4F5130759221BE028517 /* FirebaseCore.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -11653,6 +11701,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FF57ABAB0DB7DEC6FDD2A1EBDF1A5986 /* image_picker_ios.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -11710,6 +11759,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2E466E77FA84FD908925277824D725AE /* FirebaseRemoteConfig.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -11811,6 +11861,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 48F3A5DD704152741B8E8ED693D861FD /* webview_flutter_wkwebview.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -11832,6 +11883,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C33C5E757682004CF7CD83675C4B8CB9 /* nanopb.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -11853,6 +11905,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D8C0ECC00E715303FC62A0DF498B1B60 /* GoogleDataTransport.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -11873,6 +11926,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3A394759B9CF442E77C23A7294805F24 /* FirebaseABTesting.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
@@ -11895,6 +11949,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 80E94436F1CCEA4AD67803D6228A7299 /* webview_flutter_wkwebview.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
@@ -11917,6 +11972,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A879E0AC00E85A9BEA79B539542AC737 /* FirebaseCoreInternal.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -11957,6 +12013,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9EC41FE53682E4A8DEA4DB0C273C3D6E /* in_app_purchase_storekit.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -12009,6 +12066,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E318B2AE43E8E52FCE87B03667D7E1BC /* HandyJSON.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -12019,6 +12077,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREFIX_HEADER = "Target Support Files/HandyJSON/HandyJSON-prefix.pch";
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/HandyJSON/HandyJSON-Info.plist";
@@ -12037,6 +12096,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -12047,6 +12107,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 27AE1E080EA66AA235B625C0B93104D7 /* shared_preferences_foundation.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -12068,6 +12129,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9A4429218676E0EA27F6FEE0585CF69C /* GoogleUtilities.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
@@ -12090,6 +12152,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EBC5BB7B3DEA23C991F5DEA73301DF77 /* PromisesObjC.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -12127,6 +12190,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8CC825B59DB9B237FB2A45BB7139BB8C /* FirebaseSharedSwift.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -12166,6 +12230,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7056F3F5AFB48188348AD4C622A6D9CD /* FirebaseRemoteConfig.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -12187,6 +12252,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A879E0AC00E85A9BEA79B539542AC737 /* FirebaseCoreInternal.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -12227,6 +12293,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A879E0AC00E85A9BEA79B539542AC737 /* FirebaseCoreInternal.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
@@ -12249,6 +12316,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 798FA15241B4BB3C1AFBF5B82C946032 /* Firebase.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -12268,6 +12336,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EBC5BB7B3DEA23C991F5DEA73301DF77 /* PromisesObjC.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -12288,6 +12357,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1B598387E88E5244FE515C7DE54DDC03 /* FirebaseCore.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -12327,6 +12397,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9EC41FE53682E4A8DEA4DB0C273C3D6E /* in_app_purchase_storekit.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -12348,6 +12419,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0522D7D613E124E5966AC56E8539D63D /* Flutter.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -12367,6 +12439,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 90A53B25FF54516DFC5CC720CF72EBEB /* WebViewJavascriptBridge.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -12406,6 +12479,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EC1084C3A4174ED20DAB37F13B2805B0 /* shared_preferences_foundation.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -12458,6 +12532,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9B0D6E86742E37835E2C94E83623B17F /* Alamofire.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -12478,6 +12553,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9DDAD0F5151F881FF0ED88E6A3E4A99D /* Flutter.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -12497,6 +12573,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EFA6DE13D06792755F1D5541EF1D5A30 /* in_app_purchase_storekit.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
@@ -12519,6 +12596,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CD41477AE8449AEFCA3DC43C8410D2BD /* audioplayers_darwin.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -12576,6 +12654,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A51EFC3B6496F5DB0F594229D0328A67 /* package_info_plus.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -12597,6 +12676,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6B543FF9BA1FD2CB129FF32B6159804B /* FirebaseCoreInternal.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -12637,6 +12717,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AAAC05F05EEA3C6D469C0AC5EB329919 /* KeychainSwift.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -12658,6 +12739,7 @@
 			baseConfigurationReference = D2FA70CA298C392CB8332ADEEDD1CE85 /* Pods-Runner.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -12714,6 +12796,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BC22898F6259ED6FBD4ED36A05109F7D /* nanopb.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
@@ -12736,6 +12819,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9B0D6E86742E37835E2C94E83623B17F /* Alamofire.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
@@ -12758,6 +12842,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AAAC05F05EEA3C6D469C0AC5EB329919 /* KeychainSwift.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
@@ -12780,6 +12865,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5F069CCA0736651F294243E2D366441C /* KeychainSwift.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -12867,6 +12953,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0077A457434551096619A811F99E62DA /* connectivity_plus.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -12887,6 +12974,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3B3EC4C4874A000FB2F77132BEA7BD8F /* FirebaseSharedSwift.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -12926,6 +13014,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1B598387E88E5244FE515C7DE54DDC03 /* FirebaseCore.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -12946,6 +13035,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 80E94436F1CCEA4AD67803D6228A7299 /* webview_flutter_wkwebview.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -12998,6 +13088,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D62559FBD9638894935231D02D6556FC /* FirebaseRemoteConfigInterop.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -13037,6 +13128,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 16F090CCBE5149A6C3F808F46ABE42A8 /* FirebaseMessaging.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -13120,6 +13212,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B624CC8DC9EF2B391D2FD893D426A774 /* image_picker_ios.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -13177,6 +13270,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DF44F60A13FB871C2571F31B15224EE2 /* path_provider_foundation.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -13231,6 +13325,7 @@
 			baseConfigurationReference = 9F79F8269DC34AC56BB3D1D9652C0D86 /* Pods-Runner.profile.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -13287,6 +13382,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 854D2205862B77F7D59435F1778EE0F5 /* FirebaseABTesting.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -13326,6 +13422,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9B0D6E86742E37835E2C94E83623B17F /* Alamofire.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -13366,6 +13463,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0077A457434551096619A811F99E62DA /* connectivity_plus.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -13423,6 +13521,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 27C653A90B4AF77ACC135C42D2F64FF0 /* FirebaseInstallations.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -13444,6 +13543,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BC22898F6259ED6FBD4ED36A05109F7D /* nanopb.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -13483,6 +13583,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CD29AB14D501C5BCCC9ADBF2DB65F2B7 /* FirebaseInstallations.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -13522,6 +13623,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EFA6DE13D06792755F1D5541EF1D5A30 /* in_app_purchase_storekit.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -13574,6 +13676,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2E466E77FA84FD908925277824D725AE /* FirebaseRemoteConfig.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
@@ -13596,6 +13699,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D8C0ECC00E715303FC62A0DF498B1B60 /* GoogleDataTransport.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -13634,6 +13738,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B57482A17BE253FD4CDE4E49B04105CE /* connectivity_plus.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -13691,6 +13796,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 39C948D07992497237DF1DC54EFC1F44 /* FirebaseRemoteConfigInterop.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -13730,6 +13836,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D8C0ECC00E715303FC62A0DF498B1B60 /* GoogleDataTransport.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -13768,6 +13875,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6EF82DD1BB8EC190EAAD10BA7637A04C /* audioplayers_darwin.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -13825,6 +13933,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FE3D5116C417832A1B8EC34E5126BA03 /* path_provider_foundation.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
@@ -13847,6 +13956,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2E466E77FA84FD908925277824D725AE /* FirebaseRemoteConfig.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -13886,6 +13996,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EA49742A6606BA3F336ED8DC11A913AC /* Adjust.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -13925,6 +14036,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4FD44C208B04A49179C10F9FDD20C4D4 /* Alamofire.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -13946,6 +14058,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 784D71305AED91EE8E4D9E41E0A9CDAC /* video_player_avfoundation.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
@@ -13968,6 +14081,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D9B39AFFC2DA8C597548F2F0391B384A /* Firebase.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -13987,6 +14101,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D8C0ECC00E715303FC62A0DF498B1B60 /* GoogleDataTransport.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
@@ -14009,6 +14124,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9B0D6E86742E37835E2C94E83623B17F /* Alamofire.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -14049,6 +14165,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6B543FF9BA1FD2CB129FF32B6159804B /* FirebaseCoreInternal.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -14070,6 +14187,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 80E94436F1CCEA4AD67803D6228A7299 /* webview_flutter_wkwebview.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -14122,6 +14240,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FF57ABAB0DB7DEC6FDD2A1EBDF1A5986 /* image_picker_ios.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -14142,6 +14261,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CD29AB14D501C5BCCC9ADBF2DB65F2B7 /* FirebaseInstallations.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
@@ -14164,6 +14284,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4FD44C208B04A49179C10F9FDD20C4D4 /* Alamofire.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -14204,6 +14325,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9CA200DAAF1E99584E928A0890A233E0 /* package_info_plus.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
@@ -14226,6 +14348,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E32A772FD0D77E1E206A3652B6CCD35E /* video_player_avfoundation.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -14283,6 +14406,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CDB44DC01DC2BBC1E1BFFE58D6ACC045 /* WebViewJavascriptBridge.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -14322,6 +14446,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 784D71305AED91EE8E4D9E41E0A9CDAC /* video_player_avfoundation.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -14379,6 +14504,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 960FF89CCCCE5A087E8835FBC5B0D56E /* FirebaseMessaging.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -14418,6 +14544,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EC1084C3A4174ED20DAB37F13B2805B0 /* shared_preferences_foundation.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -14438,6 +14565,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1B598387E88E5244FE515C7DE54DDC03 /* FirebaseCore.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -14477,6 +14605,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EBC5BB7B3DEA23C991F5DEA73301DF77 /* PromisesObjC.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -14514,6 +14643,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CD29AB14D501C5BCCC9ADBF2DB65F2B7 /* FirebaseInstallations.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -14534,6 +14664,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EC1084C3A4174ED20DAB37F13B2805B0 /* shared_preferences_foundation.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
@@ -14556,6 +14687,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3A394759B9CF442E77C23A7294805F24 /* FirebaseABTesting.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -14595,6 +14727,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FE3D5116C417832A1B8EC34E5126BA03 /* path_provider_foundation.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -14615,6 +14748,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CD29AB14D501C5BCCC9ADBF2DB65F2B7 /* FirebaseInstallations.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -14654,6 +14788,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 784D71305AED91EE8E4D9E41E0A9CDAC /* video_player_avfoundation.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -14674,6 +14809,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 960FF89CCCCE5A087E8835FBC5B0D56E /* FirebaseMessaging.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
@@ -14696,6 +14832,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 27C653A90B4AF77ACC135C42D2F64FF0 /* FirebaseInstallations.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -14735,6 +14872,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1B598387E88E5244FE515C7DE54DDC03 /* FirebaseCore.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
@@ -14757,6 +14895,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C33C5E757682004CF7CD83675C4B8CB9 /* nanopb.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -14796,6 +14935,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F624D7EC68CA4F5130759221BE028517 /* FirebaseCore.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -14817,6 +14957,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A879E0AC00E85A9BEA79B539542AC737 /* FirebaseCoreInternal.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -14837,6 +14978,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3A394759B9CF442E77C23A7294805F24 /* FirebaseABTesting.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -14876,6 +15018,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 798FA15241B4BB3C1AFBF5B82C946032 /* Firebase.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -14895,6 +15038,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E32A772FD0D77E1E206A3652B6CCD35E /* video_player_avfoundation.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -14916,6 +15060,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9CA200DAAF1E99584E928A0890A233E0 /* package_info_plus.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -14973,6 +15118,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FF57ABAB0DB7DEC6FDD2A1EBDF1A5986 /* image_picker_ios.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
@@ -14995,6 +15141,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A28BA4A444D9F7181F02EA6B63D4825B /* GoogleUtilities.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -15016,6 +15163,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B57482A17BE253FD4CDE4E49B04105CE /* connectivity_plus.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
@@ -15037,6 +15185,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9DDAD0F5151F881FF0ED88E6A3E4A99D /* Flutter.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -15056,6 +15205,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AAAC05F05EEA3C6D469C0AC5EB329919 /* KeychainSwift.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -15096,6 +15246,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5D6273D889DBD7976AFE2108D6254082 /* Adjust.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -15135,6 +15286,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 83E57BC52073D2B0ED2636D85C40E5B5 /* GoogleDataTransport.debug.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -15173,6 +15325,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BC22898F6259ED6FBD4ED36A05109F7D /* nanopb.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_IDENTITY = "-";
 				CODE_SIGNING_REQUIRED = NO;
