@@ -34,8 +34,8 @@ const List<CoinProduct> kCoinProducts = [
   CoinProduct(productId: 'Zali19', coins: 729, price: 19.99, priceText: '\$19.99'),
   CoinProduct(productId: 'Zali49', coins: 1869, price: 49.99, priceText: '\$49.99'),
   CoinProduct(productId: 'Zali99', coins: 3799, price: 99.99, priceText: '\$99.99'),
-  CoinProduct(productId: 'Zali159', coins: 5999, price: 159.99, priceText: '\$159.99'),
-  CoinProduct(productId: 'Zali239', coins: 9059, price: 239.99, priceText: '\$239.99'),
+  //CoinProduct(productId: 'Zali159', coins: 5999, price: 159.99, priceText: '\$159.99'),
+  //CoinProduct(productId: 'Zali239', coins: 9059, price: 239.99, priceText: '\$239.99'),
 ];
 
 class WalletPage extends StatefulWidget {
