@@ -14,6 +14,8 @@ class _PlanPageState extends State<PlanPage> {
   late final Future<List<PlanItem>> _plansFuture;
   int _selectedDayIndex = (DateTime.now().weekday - 1).clamp(0, 6);
   int _displayedPlanIndex = (DateTime.now().weekday - 1).clamp(0, 6);
+  bool _showAiAdvice = false;
+  String? _aiAdvice;
 
   @override
   void initState() {
@@ -26,6 +28,62 @@ class _PlanPageState extends State<PlanPage> {
     final decoded = json.decode(raw) as Map<String, dynamic>;
     final List<dynamic> plans = decoded['plans'] as List<dynamic>;
     return plans.map((plan) => PlanItem.fromJson(plan)).toList();
+  }
+
+  Future<void> _handleAiPrompt(PlanItem plan) async {
+    final confirmed = await showDialog<bool>(
+      context: context,
+      barrierDismissible: false,
+      builder: (context) => AlertDialog(
+        backgroundColor: const Color(0xFF12161C),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+        title: Row(
+          children: const [
+            Icon(Icons.smart_toy_outlined, color: Color(0xFF28FF5E)),
+            SizedBox(width: 8),
+            Flexible(
+              child: Text(
+                'AI Diet Companion',
+                style: TextStyle(color: Colors.white),
+              ),
+            ),
+          ],
+        ),
+        content: const Text(
+          'These tips are generated in real time by an AI assistant and should be used as general guidance only. '
+          'For precise assessments, please visit healthcare providers near you.',
+          style: TextStyle(color: Colors.white70, height: 1.4),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(false),
+            child: const Text(
+              'Cancel',
+              style: TextStyle(color: Color(0xFF888888)),
+            ),
+          ),
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(true),
+            child: const Text(
+              'OK',
+              style: TextStyle(
+                color: Color(0xFF28FF5E),
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+
+    if (confirmed == true && mounted) {
+      setState(() {
+        _showAiAdvice = true;
+        _aiAdvice =
+            'Plan "${plan.title}" benefits from steady hydration, lean protein breakfasts, and post-workout snacks rich in complex carbs. '
+            'Adjust portion sizes based on your energy output.';
+      });
+    }
   }
 
   @override
@@ -57,6 +115,8 @@ class _PlanPageState extends State<PlanPage> {
                   setState(() {
                     _selectedDayIndex = index;
                     _displayedPlanIndex = index;
+                    _showAiAdvice = false;
+                    _aiAdvice = null;
                   });
                 },
               ),
@@ -115,6 +175,8 @@ class _PlanPageState extends State<PlanPage> {
                                       _displayedPlanIndex =
                                           (_displayedPlanIndex + 1) %
                                           plans.length;
+                                  _showAiAdvice = false;
+                                  _aiAdvice = null;
                                     });
                                   }
                                 },
@@ -155,33 +217,14 @@ class _PlanPageState extends State<PlanPage> {
                             ),
                           ),
                           const SizedBox(height: 24),
-                          Container(
-                            width: double.infinity,
-                            padding: const EdgeInsets.all(20),
-                            decoration: BoxDecoration(
-                              color: const Color(0xFF28FF5E),
-                              borderRadius: BorderRadius.circular(32),
-                            ),
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                _MealLine(
-                                  label: 'Breakfast',
-                                  value: plan.meals.breakfast,
+                          _showAiAdvice
+                              ? _AiAdviceCard(
+                                  advice: _aiAdvice ??
+                                      'Focus on balanced meals with lean protein, complex carbohydrates, and colorful vegetables to fuel this training.',
+                                )
+                              : _AiPromptCard(
+                                  onTap: () => _handleAiPrompt(plan),
                                 ),
-                                const SizedBox(height: 14),
-                                _MealLine(
-                                  label: 'Lunch',
-                                  value: plan.meals.lunch,
-                                ),
-                                const SizedBox(height: 14),
-                                _MealLine(
-                                  label: 'Dinner',
-                                  value: plan.meals.dinner,
-                                ),
-                              ],
-                            ),
-                          ),
                         ],
                       ),
                     );
@@ -191,6 +234,94 @@ class _PlanPageState extends State<PlanPage> {
             ],
           ),
         ),
+      ),
+    );
+  }
+}
+
+class _AiPromptCard extends StatelessWidget {
+  const _AiPromptCard({required this.onTap});
+
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: onTap,
+      child: Container(
+        width: double.infinity,
+        padding: const EdgeInsets.all(20),
+        decoration: BoxDecoration(
+          color: const Color(0xFF1C1F24),
+          borderRadius: BorderRadius.circular(24),
+          border: Border.all(color: const Color(0xFF28FF5E)),
+        ),
+        child: Row(
+          children: const [
+            Icon(Icons.smart_toy_outlined, color: Color(0xFF28FF5E)),
+            SizedBox(width: 12),
+            Expanded(
+              child: Text(
+                'Need AI diet tips for this plan?',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 16,
+                  fontWeight: FontWeight.w600,
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _AiAdviceCard extends StatelessWidget {
+  const _AiAdviceCard({required this.advice});
+
+  final String advice;
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.all(20),
+      decoration: BoxDecoration(
+        color: const Color(0xFF161A20),
+        borderRadius: BorderRadius.circular(24),
+        border: Border.all(color: const Color(0xFF28FF5E)),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const Text(
+            'AI Suggestion',
+            style: TextStyle(
+              color: Color(0xFF28FF5E),
+              fontSize: 16,
+              fontWeight: FontWeight.w700,
+            ),
+          ),
+          const SizedBox(height: 12),
+          Text(
+            advice,
+            style: const TextStyle(
+              color: Colors.white,
+              fontSize: 15,
+              height: 1.4,
+            ),
+          ),
+          const SizedBox(height: 16),
+          const Text(
+            'This recommendation is AI-generated. For personalized nutrition, please consult nearby medical professionals.',
+            style: TextStyle(
+              color: Color(0xFFAAAAAA),
+              fontSize: 13,
+              height: 1.4,
+            ),
+          ),
+        ],
       ),
     );
   }
